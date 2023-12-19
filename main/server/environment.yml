@@ -1,0 +1,42 @@
+
+name: smplerx
+channels:
+  - pytorch3d
+  - pytorch
+  - huggingface
+  - nvidia
+  - defaults
+  - conda-forge
+dependencies:
+  - python~=3.9.0
+  - rich
+  - scipy
+  - pytorch::pytorch-cuda~=11.8.0
+  - pytorch::pytorch~=1.12.0
+  - huggingface::transformers
+  - huggingface::datasets
+  - pytorch3d::pytorch3d
+  - libxml2
+  - pip
+  - pip:
+    - fastapi
+    - uvicorn[standard]
+    - python-multipart
+    - aiohttp
+    - smplx==0.1.28
+    - shortuuid==1.0.11
+    - yapf==0.40.1
+    - kornia==0.7.0
+    - dm-tree==0.1.8
+    - mmtrack==0.14.0
+    - uvicorn==0.24.0.post1
+    - opencv-python==4.8.1.78
+    - shortuuid==1.0.11
+    - jax[cpu]==0.4.13
+    - fastapi==0.104.1
+    - openmim
+    - mmdet==2.26.0
+    - easydict==1.11
+    - timm==0.9.8
+    - plyfile==1.0.1
+prefix: /opt/conda/envs/motion
